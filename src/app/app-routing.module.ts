@@ -5,6 +5,7 @@ import { DashboardComponent } from './user/dashboard/dashboard/dashboard.compone
 import { PickerComponent } from './user/binary/picker/picker.component';
 
 export const routes: Routes = [
+  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   { path: 'picker', component: PickerComponent },
   { path: 'dashboard', component: DashboardComponent }
 ];
