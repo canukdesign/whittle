@@ -9,6 +9,8 @@ import { RouterModule } from '@angular/router';
 
 import { AuthService } from './common/auth/auth.service';
 import { AppRoutingModule, routes } from './app-routing.module';
+
+import { HomeModule } from './home/home.module';
 import { UserModule } from './user/user.module';
 
 @NgModule({
@@ -19,6 +21,7 @@ import { UserModule } from './user/user.module';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
+    HomeModule,
     UserModule,
     RouterModule.forRoot(routes)
   ],

@@ -1,19 +1,1 @@
-<button class="btn btn-primary btn-margin" routerLink="/">
-  Home
-</button>
-
-<button class="btn btn-primary btn-margin" *ngIf="!auth.isAuthenticated()" (click)="auth.login()">
-  Log In
-</button>
-
-<button class="btn btn-primary btn-margin" *ngIf="auth.isAuthenticated()" (click)="auth.logout()">
-  Log Out
-</button>
-
-<nav>
-  <a routerLink="/picker">Picker</a>
-  <a routerLink="/dashboard">Dashboard</a>
-</nav>
-
-<h1>{{title}}</h1>
 <router-outlet></router-outlet>

@@ -7,5 +7,5 @@ interface AuthConfig {
 export const AUTH_CONFIG: AuthConfig = {
   clientID: 'x1CBGr80YhBtRXSTegGlYWuBfDAlC0P5',
   domain: 'canukdesign.auth0.com',
-  callbackURL: 'http://localhost:3000/callback'
+  callbackURL: 'http://localhost:4200/callback'
 };
